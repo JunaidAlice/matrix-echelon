@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.matrix-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .matrix-row {
+    display: flex;
+  }
+  
+  .matrix-cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin: 2px;
+    background-color: #0b8fe7;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
